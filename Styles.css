@@ -18,15 +18,15 @@ body 	{
 			border-style: solid;
 			border-color: #000000;
 			border-width: medium;
-			/*border-top-left-radius: 25px;
-			border-top-right-radius: 25px;*/
+			border-top-left-radius: 25px;
+			border-top-right-radius: 25px;
 			height: 150px;
 			text-transform: uppercase;
 			background-color: #18D1F8;
 			color: #000000;
-			background-image: url("images/Website Header-1.png")
-		 	}	
-
+			background-image: url("images/Website Header-1.png");
+			}
+				
 	nav 	{
 			height: 120px;
 			background-color: #555555;
@@ -34,6 +34,7 @@ body 	{
 			border-color: #000000;
 			border-width: medium;
 			}
+			
 
 	nav ul 	{
 			list-style-type: none;
@@ -42,12 +43,68 @@ body 	{
 			overflow: hidden;
 			height: 120px;
 			}
-
+main 	{
+			background-color: #FFFFFF;
+			/*margin-right: auto;
+			marging-left: auto;*/
+			border: thin solid;
+			border-color: #ffffff;
+			padding-top: 2px;
+			padding-right: 2px;
+			padding-bottom: 0px;
+			padding-left: 2px;
+			height: 12000px;
+			}
+	
+	/*section {
+			background-color: #979696;
+			margin-left: auto;
+			margin-right: auto;
+			}*/
+	
+	/*aside 	{
+			background-color: #CF69F7;
+			border-style:inset;
+			border-color: black;
+			border-width: medium;
+			float: right;
+			width: 37%;
+			
+			}
+	*/
+	footer 	{
+			clear: both;
+			height: 100px;
+			background-color: #18D1F8;
+			border: solid;
+			border-bottom-left-radius: 25px;
+			border-bottom-right-radius: 25px;
+			}
+	
+	h1 		{
+			font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu 				Sans", Verdana, "sans-serif";
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 600;
+			text-decoration: none;
+			}
+	
+	h2 		{
+			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", 			"Times New Roman", "serif";
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 600;
+			font-size: 1em;
+			text-decoration: none;
+			text-align: left;
+			font-color: #f09aec;
+			
+			}
 	li a 	{
 			display: inline;
 			float: left;
-			padding-left: 78px;
-			padding-right: 78px;
+			padding-left: 77px;
+			padding-right: 77px;
 			padding-top: 50px;
 			padding-bottom: 50px;
 			text-align: center;
@@ -79,63 +136,7 @@ body 	{
 				color: #6CE7CF;	
 			 }
 	
-	main 	{
-			background-color: #FFFFFF;
-			margin-right: auto;
-			marging-left: auto;
-			border: thin solid;
-			border-color: #ffffff;
-			padding-top: 2px;
-			padding-right: 2px;
-			padding-bottom: 0px;
-			padding-left: 2px;
-			float:left;
-			}
 	
-	section {
-			background-color: #979696;
-			margin-left: auto;
-			margin-right: auto;
-			}
-	
-	aside 	{
-			background-color: #CF69F7;
-			border-style:inset;
-			border-color: black;
-			border-width: medium;
-			float: right;
-			width: 37%;
-			
-			}
-	
-	footer 	{
-			clear: both;
-			height: 100px;
-			background-color: #18D1F8;
-			border: solid;
-			/*border-bottom-left-radius: 25px;
-			border-bottom-right-radius: 25px;*/
-			}
-	
-	h1 		{
-			font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu 				Sans", Verdana, "sans-serif";
-			font-style: normal;
-			font-variant: normal;
-			font-weight: 600;
-			text-decoration: none;
-			}
-	
-	h2 		{
-			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", 			"Times New Roman", "serif";
-			font-style: normal;
-			font-variant: normal;
-			font-weight: 600;
-			font-size: 1em;
-			text-decoration: none;
-			text-align: left;
-			font-color: #f09aec;
-			
-			}
 
 .dropdown	{
 			float: left;
